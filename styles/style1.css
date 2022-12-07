@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  background-color: #fff;
 }
 
 .container {

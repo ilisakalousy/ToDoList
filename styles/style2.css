@@ -14,6 +14,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background-color: #fff;
 }
 
 .none {
@@ -887,6 +888,11 @@ body {
 .header__right__user__settings__popup__content__left__list__item__link.active {
   background-color: rgb(235, 234, 234);
 }
+@media (max-width: 500px) {
+  .header__right__user__settings__popup__content__left__list__item__link {
+    font-size: 20px;
+  }
+}
 
 .header__right__user__settings__popup__content__right {
   width: 660px;
@@ -1015,7 +1021,7 @@ body {
 }
 
 .header__right__user__settings__popup__content__right__themes__theme__button {
-  width: 160px;
+  width: 165px;
   height: 55px;
   background-color: transparent;
   border: none;
@@ -1239,6 +1245,7 @@ body {
   border: 1px solid rgb(211, 208, 208);
   font-size: 15px;
   padding: 0 5px 0 5px;
+  color: #000;
 }
 .header__right__user__settings__popup__content__rigth__main__langugae__select:focus,
 .header__right__user__settings__popup__content__right__main__hours__select:focus,
@@ -1508,8 +1515,8 @@ body {
 
 .main__view__content__list__item__button__done {
   position: absolute;
-  width: 17px;
-  height: 17px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   left: 0;
   top: 15px;
@@ -1525,6 +1532,12 @@ body {
 }
 .main__view__content__list__item__button__done:hover {
   background-color: rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 500px) {
+  .main__view__content__list__item__button__done {
+    padding-right: 5px;
+    height: 17px;
+  }
 }
 
 .main__view__content__list__item__span__sub__desc {
@@ -1639,6 +1652,7 @@ body {
   right: 140px;
   font-weight: 600;
   cursor: pointer;
+  color: #000;
   background-color: rgb(238, 238, 238);
 }
 .main__view__content__form__button__clean:hover {

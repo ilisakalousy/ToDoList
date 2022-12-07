@@ -636,7 +636,8 @@ for (let i = 0; i < items.length; i++) {
   deleteTaskHandler(items[i]);
 };
 
-cleaningButton.addEventListener('click', () => {
+cleaningButton.addEventListener('click', (evt) => {
+  evt.preventDefault();
   mainTaskDescription.value = '';
   mainTaskSubDescriptionInput.value = '';
 });
